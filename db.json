@@ -1,0 +1,84 @@
+{
+    "employees": [
+      {
+        "id": 0,
+        "first_name": "Claudine",
+        "last_name": "Walker",
+        "email": "Verdie97@hotmail.com"
+      },
+      {
+        "id": 1,
+        "first_name": "Shanie",
+        "last_name": "Prohaska",
+        "email": "Braxton.Heller44@yahoo.com"
+      },
+      {
+        "id": 2,
+        "first_name": "Arno",
+        "last_name": "Zemlak",
+        "email": "Erling_Ratke59@gmail.com"
+      },
+      {
+        "id": 3,
+        "first_name": "Jakayla",
+        "last_name": "Auer",
+        "email": "Kayden.Abbott@gmail.com"
+      },
+      {
+        "id": 4,
+        "first_name": "Lambert",
+        "last_name": "Turcotte",
+        "email": "Avis_Beahan@gmail.com"
+      },
+      {
+        "id": 5,
+        "first_name": "Dylan",
+        "last_name": "Feeney",
+        "email": "Earline_Cruickshank67@yahoo.com"
+      },
+      {
+        "id": 6,
+        "first_name": "Dallin",
+        "last_name": "Abshire",
+        "email": "Franz47@hotmail.com"
+      },
+      {
+        "id": 7,
+        "first_name": "Shawna",
+        "last_name": "Rowe",
+        "email": "Kenyatta.Tremblay@hotmail.com"
+      },
+      {
+        "id": 8,
+        "first_name": "Veronica",
+        "last_name": "Conroy",
+        "email": "Idell72@hotmail.com"
+      },
+      {
+        "id": 9,
+        "first_name": "Camren",
+        "last_name": "Barton",
+        "email": "Garrison_Medhurst@yahoo.com"
+      }
+    ],
+    "contractors": [
+      {
+        "id": 1,
+        "first_name": "Sebastian",
+        "last_name": "Eschweiler",
+        "email": "sebastian@codingthesmartway.com"
+      },
+      {
+        "id": 2,
+        "first_name": "Steve",
+        "last_name": "Palmer",
+        "email": "steve@codingthesmartway.com"
+      },
+      {
+        "id": 3,
+        "first_name": "Ann",
+        "last_name": "Smith",
+        "email": "ann@codingthesmartway.com"
+      }
+    ]
+  }
