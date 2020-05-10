@@ -1,0 +1,18 @@
+<form [formGroup]="clientForm">
+    <mat-form-field>
+        <input matInput formControlName="firstName" placeholder="First Name">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput formControlName="lastName" placeholder="Last Name">
+    </mat-form-field>
+
+    <mat-selection-list formControlName="skills" (selectionChange)="updateSelectedSkills()">
+        <mat-list-option *ngFor="let skill of skills" [value]="skill.skillID">
+            {{skill.skillName}}
+        </mat-list-option>
+    </mat-selection-list>
+
+     <span *ngFor="let skill of selectedSkills">{{skill?.skillName }}</span>
+
+     <button mat-raised-button color="primary" type="submit" (click)="onSubmit()">Save</button>
+</form>

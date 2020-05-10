@@ -1,0 +1,29 @@
+<form [formGroup]="employeeForm">
+    <span class="custom-margin">
+        <mat-form-field>
+            <mat-label>Id</mat-label>
+            <input matInput formControlName="id">
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>First Name</mat-label>
+            <input matInput formControlName="firstName">
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Last Name</mat-label>
+            <input matInput formControlName="lastName">
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Email</mat-label>
+            <input matInput formControlName="email">
+        </mat-form-field>
+
+        <span>
+            <button type="button" mat-icon-button color="primary" (click)="onAdd()" [disabled]="employeeForm.invalid">
+                <mat-icon>done</mat-icon>
+              </button>
+              <button type="button" mat-icon-button color="warn" (click)="onCancel()">
+                <mat-icon>close</mat-icon>
+              </button>
+        </span>
+    </span>
+</form>
