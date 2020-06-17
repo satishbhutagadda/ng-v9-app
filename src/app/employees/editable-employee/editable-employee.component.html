@@ -2,26 +2,26 @@
     <span class="custom-margin">
         <mat-form-field>
             <mat-label>Id</mat-label>
-            <input matInput formControlName="id">
+            <input type="number" matInput formControlName="id" readonly>
         </mat-form-field>
         <mat-form-field>
             <mat-label>First Name</mat-label>
-            <input matInput formControlName="firstName">
+            <input type="text" matInput formControlName="first_name">
         </mat-form-field>
         <mat-form-field>
             <mat-label>Last Name</mat-label>
-            <input matInput formControlName="lastName">
+            <input type="text" matInput formControlName="last_name">
         </mat-form-field>
         <mat-form-field>
             <mat-label>Email</mat-label>
-            <input matInput formControlName="email">
+            <input type="email" matInput formControlName="email">
         </mat-form-field>
 
         <span>
-            <button type="button" mat-icon-button color="primary" (click)="onAdd()" [disabled]="employeeForm.invalid">
+            <button type="submit" mat-icon-button color="primary" (click)="onAdd()" [disabled]="employeeForm.invalid">
                 <mat-icon>done</mat-icon>
               </button>
-              <button type="button" mat-icon-button color="warn" (click)="onCancel()">
+              <button type="reset" mat-icon-button color="warn" (click)="onCancel()">
                 <mat-icon>close</mat-icon>
               </button>
         </span>
